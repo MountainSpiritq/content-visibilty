@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(138, 43, 226);
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.main{
+    background-color: darkslateblue;
+    border: 2px black solid;
+    
+    
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.image{
+    flex: 1;
+}
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
